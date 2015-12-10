@@ -4,7 +4,7 @@
 #翻墙步骤
 1. 使用推荐账号先翻墙；
 goagent-goagent-985cbd5是已经配置好的goagent包
-可以跳到第4-5-6步先翻墙，完成2-3-4操作后到goagent local中更新为自己appid
+可以跳到第5-6步先翻墙，完成2-3-4操作后到goagent local中更新为自己appid
 2. 申请google account并创建gae appid，具体操作可google；
 https://console.developers.google.com/project?authuser=3
 3. 使用google account及appid将goagent server上传到google appengine，具体操作可google；
