@@ -12,4 +12,4 @@ https://console.developers.google.com/project?authuser=3
 4. 配置goagent local中的appid/google ip(proxy.ini)；
 google ip采用推荐的ip，如果后期google ip失效，可使用gogotester查找可用的google ip
 5. 启动goagent local；
-6. 安装chrome插件SwitchySharp.crx并导入配置开启本地代理
+6. 安装chrome插件SwitchyOmega.crx并导入配置OmegaOptions.bak开启本地代理
