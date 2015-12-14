@@ -1,3 +1,6 @@
+#声明
+避免造成被喝茶的结局，请妥善使用翻墙工具。
+
 #翻墙原理
 通过将goagent server部署在google appengine上，并在本地启动goagent local代理服务器，配置好google ip便于goagent local查找gae，配置好appid便于定位到gae上的goagent server,如此，通过本地浏览器代理访问本地代理goagent local，而goagent local将请求转发到gae上的goagent server，goagent server访问外网数据并返回给goagent local并交流浏览器。由于gae是不受GFW屏蔽的，这样既可翻墙。
 
@@ -13,3 +16,10 @@ https://console.developers.google.com/project?authuser=3
 google ip采用推荐的ip，如果后期google ip失效，可使用gogotester查找可用的google ip
 5. 启动goagent local；
 6. 安装chrome插件SwitchyOmega.crx并导入配置OmegaOptions.bak开启本地代理
+
+#GoAgent
+https://zh.wikipedia.org/wiki/GoAgent
+http://baike.sogou.com/v44771164.htm
+
+#Shadowsocks
+https://zh.wikipedia.org/wiki/Shadowsocks
