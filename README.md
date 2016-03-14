@@ -26,3 +26,6 @@ https://zh.wikipedia.org/wiki/Shadowsocks
 
 #可参考博客园文章
 http://www.cnblogs.com/tesky0125/p/4889637.html
+
+#懒人指南
+https://github.com/XX-net/XX-Net
