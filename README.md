@@ -23,3 +23,7 @@ http://www.cnblogs.com/tesky0125/p/5347409.html
 ###翻墙原理介绍  
 http://www.cnblogs.com/tesky0125/p/4889637.html  
 
+###致敬GoAgent  
+https://github.com/phuslu/goagent  
+https://github.com/phuslu/goproxy  
+https://github.com/phuslu/goproxy/blob/wiki/InstallGuide.md  
