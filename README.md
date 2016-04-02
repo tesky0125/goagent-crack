@@ -17,7 +17,7 @@ google ip采用推荐的ip，如果后期google ip失效，可使用gogotester�
 5. 安装CA.crt证书，启动goagent local；  
 6. 安装chrome插件SwitchyOmega.crx并导入配置OmegaOptions.bak开启本地代理  
 
-###翻墙步骤细节  
+###翻墙步骤细节(强烈推荐)  
 http://www.cnblogs.com/tesky0125/p/5347409.html  
 
 ###翻墙原理介绍  
