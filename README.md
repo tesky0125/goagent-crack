@@ -1,5 +1,5 @@
 ##声明
-避免造成被喝茶的结局，请妥善使用翻墙工具。
+避免造成被喝茶的结局，请妥善使用翻墙工具，不作恶，且翻且珍惜。
 
 ###翻墙原理
 通过将goagent server部署在google appengine上，并在本地启动goagent local代理服务器，配置好google ip便于goagent local查找gae，配置好appid便于定位到gae上的goagent server，二者配置完成后，通过本地浏览器代理访问本地代理goagent local，而goagent local将请求转发到gae上的goagent server，goagent server访问外网数据并返回给goagent local并交由浏览器。由于gae是不受GFW屏蔽的，这样即可翻墙。
