@@ -27,10 +27,12 @@ google ip采用推荐的ip，如果后期google ip失效，可使用gogotester�
 
 > 翻墙步骤细节(强烈推荐)  
 
+[Go-Agent部署与FQ教程-Windows版](http://www.cnblogs.com/tesky0125/p/5347409.html "Go-Agent部署与FQ教程-Windows版")  
 http://www.cnblogs.com/tesky0125/p/5347409.html  
 
 > 翻墙原理介绍  
 
+[Go-Agent原理分析及FQ介绍](http://www.cnblogs.com/tesky0125/p/4889637.html "Go-Agent原理分析及FQ介绍")  
 http://www.cnblogs.com/tesky0125/p/4889637.html  
 
 > 致敬GoAgent  
