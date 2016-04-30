@@ -17,7 +17,7 @@ goagent-goagent-985cbd5是已经配置好appid的goagent包  ，可以跳到第5
 翻墙后完成2-3-4操作后到goagent/local/proxy.ini中更新为自己appid (可选)  
 2. 申请google account并创建gae appid；  
 申请完成后可查看appid [Google Projects List](https://console.developers.google.com/project?pli=1 "谷歌appid项目列表")  
-3. 使用google account及appid将goagent/server(update.bat)上传到google appengine； 
+3. 使用google account及appid将goagent/server(update.bat)上传到google appengine；  
 需要[开启gae密码弱应用](https://console.developers.google.com/project?pli=1 "开启gae密码弱应用")  
 4. 配置goagent/local/proxy.ini中的appid/google ip(proxy.ini)；  
 google ip采用推荐的ip，如果后期google ip失效，可使用gogotester查找可用的google ip  
