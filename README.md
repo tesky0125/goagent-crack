@@ -42,5 +42,6 @@ https://github.com/phuslu/goagent
 https://github.com/phuslu/goproxy  
 https://github.com/phuslu/goproxy/blob/wiki/InstallGuide.md  
 
+<img src="http://images2015.cnblogs.com/blog/477014/201607/477014-20160725150744716-1789834361.png" width = "200" height = "200" alt="扫码咨询" align=center />
 
   [1]: https://console.developers.google.com/project?pli=1 "gae appid列表"
