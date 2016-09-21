@@ -31,7 +31,27 @@ google ip采用推荐的ip，如果后期google ip失效，可使用gogotester�
 [Go-Agent部署与FQ教程](http://www.cnblogs.com/tesky0125/p/5347409.html "Go-Agent部署与FQ教程")  
 http://www.cnblogs.com/tesky0125/p/5347409.html  
 
-> 翻墙原理介绍  
+> linux下翻墙的补充
+
+1. 基本步骤与windows下相似
+
+2. 需要安装brew和python
+错误1：如果出现No module named openSSL
+安装brew、openSSL、python
+错误2：安装pycrypto
+```
+apt-get install python-crypto
+```
+错误3：证书不受信任
+在证书导入第三栏把goangent的证书改为受信任
+
+然后
+```
+sudo python proxy.py
+```
+愉快的翻墙吧~
+
+> 翻墙原理介绍 
 
 [Go-Agent原理分析及FQ介绍](http://www.cnblogs.com/tesky0125/p/4889637.html "Go-Agent原理分析及FQ介绍")  
 http://www.cnblogs.com/tesky0125/p/4889637.html  
