@@ -36,13 +36,29 @@ http://www.cnblogs.com/tesky0125/p/5347409.html
 1. 基本步骤与windows下相似
 
 2. 需要安装brew和python
-错误1：如果出现No module named openSSL
+
+常见错误1：NameError: name 'PROTOCOL_SSLv3' is not defined
+修改/home/cgre/google_appengine/goagent-goagent-437a921/local/packages.egg/linux/gevent/ssl.py的line 386
+```
+- def get_server_certificate(addr, ssl_version=PROTOCOL_SSLv3, ca_certs=None):
++ def get_server_certificate(addr, ssl_version=PROTOCOL_TLSv1, ca_certs=None):
+```
+原因：
+* SSLv3协议由于设计缺陷已经被python禁用，可以使用TLSv1协议代替
+
+
+常见错误2：如果出现No module named openSSL
 安装brew、openSSL、python
-错误2：安装pycrypto
 ```
-apt-get install python-crypto
+$ sudo apt-get install python-openssl
 ```
-错误3：证书不受信任
+
+常见错误3：未安装pycrypto，需要安装pycrypto
+```
+$ sudo apt-get install python-crypto
+```
+
+常见错误4：证书不受信任
 在证书导入第三栏把goangent的证书改为受信任
 
 然后
