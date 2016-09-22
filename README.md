@@ -31,7 +31,43 @@ google ip采用推荐的ip，如果后期google ip失效，可使用gogotester�
 [Go-Agent部署与FQ教程](http://www.cnblogs.com/tesky0125/p/5347409.html "Go-Agent部署与FQ教程")  
 http://www.cnblogs.com/tesky0125/p/5347409.html  
 
-> 翻墙原理介绍  
+> linux下翻墙的补充
+
+1. 基本步骤与windows下相似
+
+2. 需要安装brew和python
+
+常见错误1：NameError: name 'PROTOCOL_SSLv3' is not defined
+修改/home/cgre/google_appengine/goagent-goagent-437a921/local/packages.egg/linux/gevent/ssl.py的line 386
+```
+- def get_server_certificate(addr, ssl_version=PROTOCOL_SSLv3, ca_certs=None):
++ def get_server_certificate(addr, ssl_version=PROTOCOL_TLSv1, ca_certs=None):
+```
+原因：
+* SSLv3协议由于设计缺陷已经被python禁用，可以使用TLSv1协议代替
+
+
+常见错误2：如果出现No module named openSSL
+安装brew、openSSL、python
+```
+$ sudo apt-get install python-openssl
+```
+
+常见错误3：未安装pycrypto，需要安装pycrypto
+```
+$ sudo apt-get install python-crypto
+```
+
+常见错误4：证书不受信任
+在证书导入第三栏把goangent的证书改为受信任
+
+然后
+```
+sudo python proxy.py
+```
+愉快的翻墙吧~
+
+> 翻墙原理介绍 
 
 [Go-Agent原理分析及FQ介绍](http://www.cnblogs.com/tesky0125/p/4889637.html "Go-Agent原理分析及FQ介绍")  
 http://www.cnblogs.com/tesky0125/p/4889637.html  
